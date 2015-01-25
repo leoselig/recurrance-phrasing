@@ -62,4 +62,6 @@ phrasing.endsOn(Date seriesEndDate):
 ```
 
 Finally, call this to receive a translated, human-readable string:
-```phrasing.formulate```
+```javascript
+phrasing.formulate
+```
