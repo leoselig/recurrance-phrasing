@@ -1,0 +1,55 @@
+{
+    "weekDays": [
+        "Montag",
+        "Dienstag",
+        "Mittwoch",
+        "Donnerstag",
+        "Freitag",
+        "Samstag",
+        "Sonntag"
+    ],
+
+    "months": [
+        "Januar",
+        "Februar",
+        "März",
+        "April",
+        "Mai",
+        "Juni",
+        "Juli",
+        "August",
+        "September",
+        "Oktober",
+        "November",
+        "Dezember"
+    ],
+
+    "formats": {
+        "date": "{{=it.day}}. {{=it.monthName}} {{=it.year}}"
+    },
+
+    "daily": {
+        "each": "Jeden Tag",
+        "some": "Jeden {{=it.weekDays}}"
+    },
+
+    "weekly": {
+        "each": "Jede Woche",
+        "interval": "Jede {{=it.interval}}. Woche"
+    },
+
+    "monthly": {
+        "each": "Jeden Monat",
+        "interval": "Jeden {{=it.interval}}. Monat"
+    },
+
+    "yearly": {
+        "each": "Jedes Jahr",
+        "interval": "Jedes {{=it.interval}}. Jahr"
+    },
+
+    "seriesEnd": {
+        "occurances": "endet nach {{=it.number}} Veranstaltungen",
+        "date": "endet am {{=it.date}}"
+    }
+}

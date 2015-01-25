@@ -1,0 +1,55 @@
+{
+    "weekDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+    ],
+
+    "months": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "Oktober",
+        "November",
+        "December"
+    ],
+
+    "formats": {
+        "date": "{{=it.monthName}} {{=it.day}}, {{=it.year}}"
+    },
+
+    "daily": {
+        "each": "Every day",
+        "some": "Every {{=it.weekDays}}"
+    },
+
+    "weekly": {
+        "each": "Every week",
+        "interval": "Every {{=it.interval}} weeks"
+    },
+
+    "monthly": {
+        "each": "Every month",
+        "interval": "Every {{=it.interval}} months"
+    },
+
+    "yearly": {
+        "each": "Every year",
+        "interval": "Every {{=it.interval}} years"
+    },
+
+    "seriesEnd": {
+        "occurances": "ends after {{=it.number}} occurances",
+        "date": "ends on {{=it.date}}"
+    }
+}

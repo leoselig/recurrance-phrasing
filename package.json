@@ -1,0 +1,41 @@
+{
+    "name": "recurrance-phrasing",
+    "version": "1.0.0",
+    "description": "Creates localizable human-readable phrases for recurring event rules",
+    "main": "index.js",
+    "scripts": {
+        "test": "gulp test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/leoselig/recurrance-phrasing"
+    },
+    "keywords": [
+        "recurring",
+        "repeating",
+        "events",
+        "i18n",
+        "summary"
+    ],
+    "author": "Leo Selig",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/leoselig/recurrance-phrasing/issues"
+    },
+    "homepage": "https://github.com/leoselig/recurrance-phrasing",
+    "devDependencies": {
+        "chai": "^1.10.0",
+        "dot": "^1.0.3",
+        "gulp": "^3.8.10",
+        "gulp-browserify": "^0.5.1",
+        "gulp-mocha": "^2.0.0",
+        "gulp-rename": "^1.2.0",
+        "gulp-watch": "^4.1.0",
+        "karma": "^0.12.31",
+        "karma-chrome-launcher": "^0.1.7",
+        "karma-firefox-launcher": "^0.1.4",
+        "karma-mocha": "^0.1.10",
+        "karma-phantomjs-launcher": "^0.1.4",
+        "mocha": "^2.1.0"
+    }
+}
